@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+ 
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+ 
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <font size="7" color="green" face="COMIC SANS MS">Наши контакты:<font size="7" color="red" face="COMIC SANS MS">
+{{ flatpage.content }}
+{% endblock content %}
